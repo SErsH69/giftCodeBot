@@ -1,48 +1,14 @@
 {
-  "name": "gulp_modern",
+  "name": "giftcodebot",
   "version": "1.0.0",
   "description": "",
-  "main": "gulpfile.js",
-  "type": "module",
+  "main": "index.js",
   "scripts": {
-    "dev": "gulp",
-    "build": "gulp build --build"
+    "dev": "node-sass --watch scss -o css"
   },
-  "author": "Garapov Ruslan",
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "browser-sync": "2.23.6",
-    "bs-console-qrcode": "latest",
-    "del": "latest",
-    "dotenv": "latest",
-    "gulp": "latest",
-    "gulp-autoprefixer": "latest",
-    "gulp-clean-css": "latest",
-    "gulp-file-include": "latest",
-    "gulp-fonter": "latest",
-    "gulp-group-css-media-queries": "latest",
-    "gulp-if": "latest",
-    "gulp-imagemin": "latest",
-    "gulp-newer": "latest",
-    "gulp-notify": "latest",
-    "gulp-plumber": "latest",
-    "gulp-rename": "latest",
-    "gulp-replace": "latest",
-    "gulp-sass": "latest",
-    "gulp-svg-sprite": "latest",
-    "gulp-ttf2woff2": "latest",
-    "gulp-version-number": "latest",
-    "gulp-webp": "latest",
-    "gulp-webp-html-nosvg": "latest",
-    "gulp-webpcss": "latest",
-    "ngrok": "latest",
-    "sass": "latest",
-    "webp-converter": "2.2.3",
-    "webpack": "latest",
-    "webpack-stream": "latest"
-  },
   "dependencies": {
-    "jquery": "^3.6.0",
-    "vue": "^2.6.14"
+    "node-sass": "^7.0.1"
   }
 }
